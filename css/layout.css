@@ -14,3 +14,26 @@ Layout
 .section {
 	padding-top: 96px;
 }
+
+
+
+/* web fonts
+----------------------------------------------- */
+@font-face {
+	font-family: 'Museo300';
+	src: url('../fonts/museo/museo300-regular-webfont.eot');
+	src: local('☺'), url('../fonts/museo/museo300-regular-webfont.woff') format('woff'), url('../fonts/museo/museo300-regular-webfont.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Museo700';
+	src: url('../fonts/museo/museo700-regular-webfont.eot');
+	src: local('☺'), url('../fonts/museo/museo700-regular-webfont.woff') format('woff'), url('../fonts/museo/museo700-regular-webfont.ttf') format('truetype'), url('../fonts/museo/museo700-regular-webfont.svg#webfontITeQc3Cb') format('svg');
+}
+
+
+/* typography
+----------------------------------------------- */
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Museo700', Helvetica, Arial, sans-serif;
+	letter-spacing: 0;
+}
