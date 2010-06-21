@@ -11,3 +11,6 @@ Layout
 	position: fixed;
 	width: 100%;
 }
+.section {
+	padding-top: 96px;
+}
