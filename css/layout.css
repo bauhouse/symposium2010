@@ -14,7 +14,10 @@ Layout
 .section {
 	padding-top: 96px;
 }
-
+.site-info {
+	padding-top: 96px;
+	padding-bottom: 500px;
+}
 
 
 /* web fonts
