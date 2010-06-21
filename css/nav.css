@@ -1,0 +1,51 @@
+/*
+-----------------------------------------------
+Navigation
+----------------------------------------------- */
+
+/* navigation (horizontal subnavigation)
+----------------------------------------------- */
+.nav {
+	float: left;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	white-space: nowrap;
+}
+.nav li {
+	float: left;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.nav > li {
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+.nav > li:hover {
+	position: relative;
+}
+.nav ul {
+	display: none;
+	position: absolute;
+	margin: 0;
+	padding-left: 0;
+	list-style: none;
+	text-transform: none;
+	line-height: 2.5;
+}
+.nav li:hover ul {
+	display: block;
+}
+.nav a {
+	display: block;
+	padding: .7em 1em;
+	text-decoration: none;
+}
+.nav li ul li a {
+	padding: 0 0.77em;
+}
+
+.page {clear:both;}
+
